@@ -1,0 +1,46 @@
+body {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+h1 {
+    color: #2E86C1;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+h2, h3 {
+    color: #1F618D;
+}
+
+.stButton>button {
+    background-color: #28B463;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    transition: 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #239B56;
+}
+
+.stSlider {
+    color: #D35400;
+}
+
+.stAlert {
+    background-color: #FAD7A0;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.stMarkdown {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
