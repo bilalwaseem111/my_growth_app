@@ -11,7 +11,7 @@ def load_css():
         with open(css_file) as f:
             st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
     else:
-        st.warning("⚠️ CSS file not found! Make sure 'style.css' is in the same folder as 'app.py'.")
+        st.warning("Have a look")
 
 # Select a random challenge & quote
 daily_challenge = random.choice(daily_challenges) if daily_challenges else "No challenges available."
